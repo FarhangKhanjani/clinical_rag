@@ -1,0 +1,25 @@
+{
+  "description": "Retrieval test set for the IDF 2025 type 2 diabetes guidelines. Each question has an 'evidence' regex; every content page whose text (whitespace-normalised) matches it counts as a correct page. Questions are phrased the way a clinician would ask, not copied from the document.",
+  "questions": [
+    {"id": "dx-hba1c", "question": "What HbA1c value is used to diagnose type 2 diabetes?", "answer": "HbA1c ≥6.5% (48 mmol/mol)", "evidence": "HbA1c ≥ ?6\\.5% \\(48"},
+    {"id": "dx-fpg", "question": "Which fasting plasma glucose level defines diabetes?", "answer": "≥7.0 mmol/L (126 mg/dL)", "evidence": "FPG\\)? ≥ ?7\\.0 mmol/L"},
+    {"id": "ifg-range", "question": "What fasting glucose range counts as impaired fasting glucose under the WHO criteria?", "answer": "6.1–6.9 mmol/L (110–125 mg/dL)", "evidence": "6\\.1–6\\.9 mmol/L"},
+    {"id": "first-line", "question": "Which drug is recommended as first-line monotherapy for type 2 diabetes?", "answer": "Metformin", "evidence": "[Mm]etformin remains the recommended first-line|first-line monotherapy Metformin"},
+    {"id": "hba1c-target", "question": "What general HbA1c target do the guidelines recommend for most adults with type 2 diabetes?", "answer": "<7.0% (<53 mmol/mol), personalised", "evidence": "general (HbA1c )?target of (HbA1c )?<7\\.0%"},
+    {"id": "bp-target", "question": "What blood pressure should people with type 2 diabetes aim for?", "answer": "<130/80 mmHg if it can be safely attained", "evidence": "<130/80"},
+    {"id": "bp-drugs", "question": "Which medicines are first-line for high blood pressure in people with diabetes?", "answer": "ACE inhibitors or ARBs", "evidence": "ACE inhibitors or ARBs are recommended"},
+    {"id": "exercise", "question": "How much exercise per week should people with type 2 diabetes aim for?", "answer": "At least 150 minutes of moderate exercise per week", "evidence": "150 minutes"},
+    {"id": "prevention-weight", "question": "How much weight loss should a diabetes prevention programme aim for in overweight people?", "answer": "5% weight loss", "evidence": "aiming for 5% weight loss"},
+    {"id": "remission", "question": "How is remission of type 2 diabetes defined?", "answer": "HbA1c <6.5% without glucose-lowering medication for at least three months", "evidence": "remission.{0,80}HbA1c <6\\.5%"},
+    {"id": "dpp-effect", "question": "By how much did lifestyle intervention reduce diabetes incidence in the Diabetes Prevention Program?", "answer": "49% during the DPP (29% over 10-year follow-up)", "evidence": "reduced diabetes incidence by 49%"},
+    {"id": "prevalence", "question": "How many adults were living with diabetes worldwide in 2024?", "answer": "589 million adults aged 20–79", "evidence": "589 million"},
+    {"id": "insulin-when", "question": "When should insulin therapy be started in type 2 diabetes?", "answer": "When optimised glucose-lowering medications and lifestyle interventions do not maintain target control", "evidence": "Begin insulin therapy when optimised"},
+    {"id": "insulin-how", "question": "What kind of insulin regimen is recommended when starting insulin?", "answer": "A single daily injection of basal insulin, continuing metformin", "evidence": "single daily injection of (basal|affordable)"},
+    {"id": "hf-drug", "question": "Which glucose-lowering drug class is preferred for people with type 2 diabetes and heart failure?", "answer": "SGLT2 inhibitors", "evidence": "SGLT2i preferred in HF|Heart Failure \\(HF\\).{0,700}Metformin\\+SGLT2i"},
+    {"id": "ckd-screen", "question": "Which tests are used to screen for chronic kidney disease in people with diabetes?", "answer": "eGFR and UACR", "evidence": "Chronic Kidney Disease \\(CKD\\) Screening/risk assessment • eGFR • UACR"},
+    {"id": "cgm", "question": "Is continuous glucose monitoring recommended as routine care in type 2 diabetes?", "answer": "No, it is not currently widely recommended as routine care", "evidence": "CGM use is currently not widely recommended"},
+    {"id": "masld-screen", "question": "Which score is used to screen for liver fibrosis in people with type 2 diabetes and fatty liver disease?", "answer": "FIB-4 score", "evidence": "FIB-4"},
+    {"id": "masld-statins", "question": "Are statins safe in people with type 2 diabetes and fatty liver disease?", "answer": "Yes, including in compensated cirrhosis", "evidence": "Statin therapy is safe in adults with T2DM and MASLD"},
+    {"id": "aspirin", "question": "Is aspirin recommended for people with type 2 diabetes and cardiovascular disease?", "answer": "Consider aspirin", "evidence": "Consider aspirin"}
+  ]
+}
